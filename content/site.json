@@ -1,0 +1,60 @@
+{
+  "name": "Sonja",
+  "tagline": "Long walks and slow rides.",
+  "intro": "I spend weeks — sometimes months — moving through landscapes on foot or by bike. This is where I collect those journeys.",
+  "photo": "",
+  "about": "I was born in Augsburg, Germany, and grew up there in the 1960s. My first trip into the mountains came at the tender age of fifteen months, when my parents took me along up the Hörnle in the Bavarian Alps. I've been hooked on the outdoors ever since.\n\nPlaceholder: what a typical project looks like for you — how you plan, how you travel (tent, huts, bikepacking), and what you hope to share with others here.",
+  "email": "hello@example.com",
+  "social": [
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/"
+    },
+    {
+      "label": "Komoot",
+      "url": "https://www.komoot.com/"
+    },
+    {
+      "label": "Strava",
+      "url": "https://www.strava.com/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Pyrenean Haute Route (HRP)",
+      "mode": "On foot",
+      "year": "2024",
+      "duration": "7 weeks",
+      "distance": "≈ 800 km",
+      "elevation": "≈ 45,000 m ascent",
+      "region": "Hendaye → Banyuls-sur-Mer",
+      "summary": "A traverse of the Pyrenees from the Atlantic to the Mediterranean along the Haute Route Pyrénéenne — about 800 km and 45,000 metres of climbing.",
+      "text": "The HRP drew me in for several reasons. First, I wanted to get to know the Pyrenees properly — not just a summit here and there, but the whole range, from one sea to the other.\n\nSecond, I loved the constant back-and-forth between France and Spain. The route keeps crossing the border, and since I speak both languages, I got to switch between them all the way along.\n\nAnd third, the challenge. The Haute Route is wild and pathless in places, yet every so often it brings you down to a mountain hut or a village, back into civilisation for a while.",
+      "image": ""
+    },
+    {
+      "title": "Example: Along the Danube by bike",
+      "mode": "By bike",
+      "year": "2025",
+      "duration": "3 months",
+      "distance": "2,850 km",
+      "region": "Black Forest → Black Sea",
+      "summary": "A placeholder for a long bike journey. One or two sentences shown in the list.",
+      "text": "Placeholder: the longer story of this project.",
+      "image": "",
+      "elevation": ""
+    },
+    {
+      "title": "Example: Coastal path, Scotland",
+      "mode": "On foot",
+      "year": "Planned · 2027",
+      "duration": "4 weeks",
+      "distance": "≈ 800 km",
+      "region": "Scotland",
+      "summary": "A placeholder for an upcoming project.",
+      "text": "",
+      "image": "",
+      "elevation": ""
+    }
+  ]
+}

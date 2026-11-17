@@ -1,0 +1,82 @@
+# Configuration for the online editor (Pages CMS, https://pagescms.org)
+media:
+  input: images
+  output: images
+
+content:
+  - name: site
+    label: My website
+    type: file
+    path: content/site.json
+    fields:
+      - name: name
+        label: Your name
+        type: string
+      - name: tagline
+        label: Tagline (small green line above your name)
+        type: string
+      - name: intro
+        label: Short introduction
+        type: text
+      - name: photo
+        label: Your photo
+        type: image
+      - name: about
+        label: About me (leave an empty line between paragraphs)
+        type: text
+      - name: email
+        label: E-mail address
+        type: string
+      - name: social
+        label: Social media links
+        type: object
+        list:
+          collapsible:
+            summary: "{label}"
+        fields:
+          - name: label
+            label: Name (e.g. Instagram)
+            type: string
+          - name: url
+            label: Link
+            type: string
+      - name: projects
+        label: Projects (newest first)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: mode
+            label: How
+            type: select
+            options:
+              values: [On foot, By bike]
+          - name: year
+            label: Year (e.g. 2026 or "Planned · 2027")
+            type: string
+          - name: duration
+            label: Duration (e.g. 6 weeks)
+            type: string
+          - name: distance
+            label: Distance (e.g. 1,100 km)
+            type: string
+          - name: elevation
+            label: Elevation gain (e.g. 45,000 m ascent)
+            type: string
+          - name: region
+            label: Region / route
+            type: string
+          - name: summary
+            label: Short summary (1–2 sentences)
+            type: text
+          - name: text
+            label: Full story (leave an empty line between paragraphs)
+            type: text
+          - name: image
+            label: Photo (optional)
+            type: image
